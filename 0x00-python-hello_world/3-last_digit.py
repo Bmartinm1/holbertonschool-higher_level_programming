@@ -5,6 +5,8 @@ n = number
 if n < 0:
     n *= -1
 n = n % 10
+if number < 0:
+    n *= -1
 
 if (n > 5):
     print("Last digit of ", number, " is ", n, " and is greater than 5")
